@@ -3,8 +3,8 @@ menu:
   Home: /
   Archives: /archives
   About: /about
-  #Tags: /tags
-  #Categories: /categories
+## Tags: /tags
+## Categories: /categories
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -21,7 +21,7 @@ widgets:
 - tag
 #- links
 #- douban
-- rss
+#- rss
 #- weibo
 #- github-card
   ## provide eight widgets:github-card,category,tag,rss,archive,tagcloud,links,weibo
@@ -38,12 +38,12 @@ imglogo:
 favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/kiddochan/source/img`.     
 apple_icon: img/profile.png ## size:114px*114px,please put image into the theme folder `/kiddochan/source/img`.
 author_img: img/ai.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
-banner_img: img/banner_touch.jpg ## size:1920px*200px+. Banner Picture
+banner_img: #img/banner_touch.jpg ## size:1920px*200px+. Banner Picture
 
 ### Theme Color
 # you can change theme color quickly here. if you want to use the default colors, just don't set them.
 theme_color:
-    theme: '#403D3D'       ## default: '#2c3e50'
+    theme: '#2c3e50'       ## default: '#2c3e50'
     background: '#DBDBDB'  ## default: '#158597'
     footer: '#403D3D'      ## default: '#2c3e50'
 
@@ -65,7 +65,7 @@ index:
   excerpt_link: Read More  
 
 close_aside: false  #close sidebar in post page if true
-mathjax: false      #enable mathjax if true
+mathjax: true      #enable mathjax if true
 
 ### Creative Commons License Support, see http://creativecommons.org/ 
 ### you can choose: by , by-nc , by-nc-nd , by-nc-sa , by-nd , by-sa , zero
@@ -73,11 +73,11 @@ creative_commons:
 
 #### Author information
 author:
-  weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
+  weibo: #2420250427     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:    ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
   douban:     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
-  zhihu:      ## e.g. jark  for http://www.zhihu.com/people/jark
+  zhihu: #luo-xian-feng-10     ## e.g. jark  for http://www.zhihu.com/people/jark
   email: e@lxf.pw     ## e.g. hsihohuang@hotmail.com
   twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
   github: busyluo    ## e.g. hsihohuang for https://github.com/hsihohuang
@@ -100,7 +100,7 @@ links:
   #link2's name: link2's url  
 
 #### Comment
-duoshuo_shortname:    ## e.g. hsihohuang   your duoshuo short name.
+duoshuo_shortname: busyluo   ## e.g. hsihohuang   your duoshuo short name.
 disqus_shortname:     ## e.g. hsihohuang   your disqus short name.
 
 #### Share button
